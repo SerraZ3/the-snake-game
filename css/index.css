@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: brown;
+  font-weight: bold;
+}
+
+h2 {
+  color: brown;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  position: absolute;
+  top: -60px;
+  left: -230px;
+}
+
+canvas {
+  background-color: rgb(29, 231, 29);
+}
+.pull-3 {
+  margin-right: 25%;
+}
+.fas {
+  font-size: 25px;
+  color: rgb(68, 142, 211);
+}
+
+.result img {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+#fruit,
+#virus {
+  display: none;
+}
+
+#snake {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+#scoreModal {
+  color: brown;
+  font-weight: bolder;
+}
+
+#pauseBtn,
+#resumeBtn {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  margin: 5px;
+}
+
+#pauseBtn:hover,
+#resumeBtn:hover {
+  background-color: #ccc;
+}
